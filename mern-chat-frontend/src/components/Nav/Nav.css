@@ -1,0 +1,122 @@
+.lnav{
+  margin-top: 10px;
+  width: "98%";
+  height: 84px;
+  border-radius: 10px; 
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: "medium";
+  z-index: 1000;
+
+  
+}
+.cont{
+  background-color: rgb(255, 255, 255) !important;
+  border:solid var(--main-color) 4px ;
+  border-radius: 10px;
+}
+
+nav .boutonBasculement a{
+  color:var(--main-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: .3s ease all;
+  margin-top: 20px;
+  margin-left: 50px;
+  max-width: 100% !important;
+  height: auto!important;
+  background-color: rgb(255, 255, 255) !important; 
+
+}
+nav .boutonBasculement a:hover {
+  color:var(--sec-color) !important;
+  max-width: 100% !important;
+  height: auto!important;
+
+
+}
+
+ .active1, .active3{
+  margin-top: 27px !important;
+}
+
+.boutonBasculement .dropdown-menu{
+  border: 1px solid aliceblue;
+  width: 200px !important;
+  height: auto !important;  
+   
+}
+.boutonBasculement .dropdown-menu a{
+  color: rgb(67, 73, 80);
+  font-size: 14px;
+  line-height:30px !important;
+  position :relative;
+  transition: .3s ease all;
+  background-color: transparent !important;
+  margin-left: 20px;
+}
+
+
+
+.boutonBasculement .dropdown-menu a:hover{
+  color: var(--btn-color) !important;
+
+ 
+}
+.lnav[type=button]:not(:disabled),
+.lnav[type=reset]:not(:disabled), 
+.lnav[type=submit]:not(:disabled) ,
+.lnav button:not(:disabled)
+{ 
+  cursor: pointer;
+  background-color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  
+  
+
+}
+
+.logreg {
+  background-color: var(--btn-color);
+  border:1px solid var(--btn-color);
+  width : 270px;
+  height: 50px;
+  color :aliceblue;
+  text-transform: uppercase;
+  margin-top: 10px !important ;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in-out;
+  margin-left: 100px;
+ 
+
+}
+nav .boutonBasculement button span{
+  background-color: aliceblue;
+  color: var(--btn-color);
+  width: 40px;
+  border-radius: 4px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 15px;
+  }
+
+  @media only screen and (max-width : 992px)
+{
+  nav .boutonBasculement .dropdown-menu {width:100% ;}
+  nav .boutonBasculement button{
+      margin-top: 0px;
+      
+
+  }
+}
+
+.me-auto{
+  z-index: 1000;
+
+}
